@@ -1,0 +1,44 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Home.master.cs" Inherits="TestWEB.Home" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>Tap tanh lap trinh</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="Home" runat="server">
+        <div id ="menutop">
+            <div id="menu">
+                <ul>
+                    <li><a href="#">Trang chu</a></li>
+                    <li><a href="#">Dang ki</a></li>
+                    <li><a href="#">Dang nhap</a></li>
+                </ul>
+            </div>
+            </div>
+        <div id="maincontent">
+            <div id="rightcontent">
+                <h1>Tieu de phai 1</h1>
+                <div id="rdright">
+                    Noi dung.
+                </div>
+            </div>
+            <div id="content">
+                
+          
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+                  </div>
+        </div>
+        <div id="footer">
+            <div id="ndfooter">
+                Nguoi lam Khang provip.<br/>
+                call face khangle07
+            </div>
+        </div>
+    </form>
+</body>
+</html>
